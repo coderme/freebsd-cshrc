@@ -51,3 +51,4 @@ if ($?prompt) then
 	# Use history to aid expansion
 	set autoexpand
 	set autorehash
+	set mail = (/usr/home/$USER)
