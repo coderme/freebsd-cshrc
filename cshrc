@@ -50,3 +50,4 @@ if ($?prompt) then
 	set autolist = ambiguous
 	# Use history to aid expansion
 	set autoexpand
+	set autorehash
