@@ -53,3 +53,4 @@ if ($?prompt) then
 	set autorehash
 	set mail = (/usr/home/$USER)
 	if ( $?tcsh ) then
+		bindkey "^W" backward-delete-word
