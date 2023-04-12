@@ -52,3 +52,4 @@ if ($?prompt) then
 	set autoexpand
 	set autorehash
 	set mail = (/usr/home/$USER)
+	if ( $?tcsh ) then
