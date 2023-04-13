@@ -54,3 +54,4 @@ if ($?prompt) then
 	set mail = (/usr/home/$USER)
 	if ( $?tcsh ) then
 		bindkey "^W" backward-delete-word
+		bindkey -k up history-search-backward
