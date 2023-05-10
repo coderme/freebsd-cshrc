@@ -57,3 +57,4 @@ if ($?prompt) then
 		bindkey -k up history-search-backward
 		bindkey -k down history-search-forward
 		bindkey '^[[3~' backward-delete-word
+	endif
