@@ -59,3 +59,4 @@ if ($?prompt) then
 		bindkey '^[[3~' backward-delete-word
 	endif
 
+endif
